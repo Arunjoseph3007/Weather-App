@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Search your city" class="search-bar">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="climate">
+            <h1 class="name">Mumbai</h1>
+            <h1 class="temp-head"><span class="temp">32</span> °C</h1>
+            <p class="description">Cloudy</p>
+            <p>Humidity: <span class="humidity">20</span> %</p>
+            <p>Wind Speed: <span class="wind">10</span> kmph</p>
+        </div>
+    </div>
+    <div class="error">
+        <div class="error-msg">
+            <p>Oops! <span class="wrong">city</span> was not found. Try Again</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
